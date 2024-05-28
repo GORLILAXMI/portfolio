@@ -1,0 +1,226 @@
+<html>
+<style>
+    .name {
+        font-family: arial;
+        font-weight: bold;
+        color: rgb(241, 171, 85);
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .laxmi {
+        color: palevioletred;
+    }
+
+    .des {
+        font-family: arial;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .about {
+        font-family: arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    container.img {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .ab1 {
+        font-family: arial;
+        font-size: 18px;
+        color: rgb(241, 212, 212);
+        text-indent: 80px;
+    }
+
+    .skills {
+        margin-top: 50px;
+        font-family: arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .image-container {
+        display: flex;
+        width: 100px;
+        height: 150px;
+
+    }
+
+    .image-container img {
+        margin-right: 50px;
+        border-radius: 30px;
+    }
+
+    .project {
+        font-family: arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .click {
+        font-family: arial;
+        font-size: 20px;
+
+        color: white;
+    }
+
+    #contact-details {
+        display: none;
+    }
+
+    .button {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        background-color: #103d02;
+        border-radius: 5px;
+        border: none;
+        margin-left: 8px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        box-shadow: 0 4px #2e661d;
+        transition: box-shadow 0.3s,
+            transform 0.3s;
+
+    }
+
+    .button:active {
+        box-shadow: 0 2px #451d66;
+        transform: translateY(4px);
+    }
+
+    .project {
+        width: 1000px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .imagep {
+        width: 450px;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    .description {
+        margin-top: 10px;
+    }
+</style>
+<title>PORTFOLIO</title>
+
+<body style="background-color:rgb(43, 42, 42);">
+    <marquee behavoir="scroll" direction="left">
+        <h3 style="color:white">PORTFOLIO</h3>
+    </marquee>
+    <p class="name"><i>Hey! Iam <span class="laxmi">Laxmi</span></i></p>
+    <p class="des">A Frontend Developer</p>
+    <p class="about">ABOUT :</p>
+    <div class="container">
+        <img src="image1.jpg" alt="Description" style=" border-radius: 50px;"></img>
+
+        <p class="ab1">Hello there! I'm LAXMI, a second-year BTech student passionate about Frontend Development.
+            Currently
+            immersed in the world of html & CSS, I'm eager to explore and learn more about Full Stack Development.I
+            thrive on setting goals and pushing myself to achieve them.Iam a person with family of five, Known for my
+            self-motivation. aiming to make meaningful contributions to the world around us. </p>
+
+    </div>
+    <p class="skills">SKILLS:</p>
+    <div class="image-container">
+        <img src="html.jpg">
+        <img src="css.jpg">
+        <img src="python.jpg">
+        <img src="java.jpg">
+    </div>
+    <p class="skills">Works I Have Done :</p>
+    <div class="project">
+        <h3 style="color:rgb(13, 221, 204) ;text-align:center">EXAM CELL AUTOMATION SYSTEM</h3>
+        <img class="imagep" src="examcell1.png">
+        <img class="imagep" src="examcell2.png">
+
+
+        <div class="description">
+
+            <h4 style="color:rgb(241, 212, 212);">I Have Worked on the project "EXAM CELL AUTOMATION SYSTEM".The Exam
+                Cell
+                Automation System (ECAS) Is A Comprehensive Web-based Solution Designed To Streamline And Automate The
+                Examination Management Processes Within Educational Institutions
+            </h4>
+        </div>
+    </div>
+    <div class="project">
+        <div class="description">
+            <h2 style="color:rgb(241, 212, 212);">I Have Designed a Login Page Using html and CSS</h2>
+            <img src="project.JPG" style="height:250px; width:500px;">
+        </div>
+    </div>
+    <p class="skills">ACHIEVEMENTS:</p>
+    <h2 style="color:rgb(241, 212, 212);">I Have Obtained Certificates in both C( Programming Essentials in C
+        ) and python(Programming Essentials in
+        Python
+        ) programming languages By "Cisco Networking Academy"
+        showcasing my dedication to enhancing my technical skills</h2>
+    <img src="C.png" style="height:250px; width:500px; border-radius:60px;">
+
+    <img src="python.png" style="height:250px; width:500px; border-radius:60px;">
+    <a href="LAXMI_resume.pdf" style="color:crimson">
+        <h2>Resume</h2>
+    </a>
+    <p class="click">
+        click the above link to view the Resume
+    </p>
+    <button id="contact-button" class="button" onclick="toggleContactDetails()">CONTACT-ME</button>
+    <div id="contact-details">
+        <p>
+        <h2 style="color: aliceblue;"><i> G.LAXMI</i></h2>
+        </p>
+        <p>
+        <h2 style="color: aliceblue;"></i> . Email : gorlilaxmi2004@gmail.com</h2>
+        </p>
+        <h2 style="color: aliceblue;"></i> . Linkedin Profile</h2>
+        <h3 style="color: aliceblue;"></i> Username : GORLI LAXMI</h3>
+
+        <img src="nptel.jpg" style="height:300px;width:400px; border-radius:10px;">
+
+    </div>
+    <script>
+        function toggleContactDetails() {
+            var details = document.getElementById("contact-details");
+            if (details.style.display === "none") {
+                details.style.display = "block"; // Show the contact details
+            } else {
+                details.style.display = "none"; // Hide the contact details
+            }
+        }
+    </script>
+    <center>
+        <footer>
+            <h4 style="color:white">&copy; 2024 by Laxmi created with VisualStudio Code</h4>
+
+        </footer>
+    </center>
+</body>
+
+</html>
